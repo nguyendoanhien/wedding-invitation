@@ -98,18 +98,7 @@
                             <div class="card-welcome-text vni">
                                 Wedding
                             </div>
-                            <div class="card-welcome-date">
-                                <%= data.cfg.male.time_start.date.lunar.day %>
-                                -
-                                <%= data.cfg.male.time_start.date.lunar.month %>
-                                -
-                                <%= data.cfg.male.time_start.date.lunar.year %>
-                            </div>
 
-                        </div>
-
-                        <div class="card-welcome-invite-name vni">
-                            <%= (data.mode == 2 ? "Kính mời: " + data.invitee.name : "Kính mời ....................") %>
                         </div>
                     </div>
 
@@ -133,8 +122,7 @@
                                 <%= (data.mode == 2 ? data.invitee.name : "Bạn và gia đình") %>
                             </div>
                             <div class="card-header-inviter">
-                                Tới dự lễ thành hôn của 2 <%= (data.mode == 2 ? data.invitee.level : "....") %>
-                                chúng tôi
+                                Đến dự buổi tiệc chung vui cùng của 2 <%= (data.mode == 2 ? data.invitee.level : "....") %>
                             </div>
                         </div>
                         <div class="card-header-name">
@@ -146,42 +134,45 @@
                                 <%= data.cfg.female.name %>
                             </div>
                         </div>
+                        tại TRUNG TÂM TIỆC CƯỚI
                         <div class="card-information">
-                                    <span style="padding-top: 10px">Hôn lễ được tổ chức vào hồi <%= data.cfg.male.time_start.time.hour %> giờ
-                                        <%= data.cfg.male.time_start.time.minute %>"</span>
-                            <div class="information-time">
-                                <span class="week vni">Thứ <%= data.cfg.male.time_start.date.day_of_week %></span>
-                                <span class="day btn"> <%= data.cfg.male.time_start.date.lunar.day %></span>
-                                <span class="month vni">Tháng  <%= data.cfg.male.time_start.date.lunar.month %></span>
-                            </div>
-                            <span class="detail-time">(Tức ngày <%= data.cfg.male.time_start.date.lunar.day %>/
-                                        <%= data.cfg.male.time_start.date.lunar.month %>)</span>
-                            <div style="padding-top:10px">Tại tự gia Nhà Trai</div>
+                            <div class="vni" style="font-size: 50px;">Queen Plaza Kỳ Hòa</div>
+                            <div style="color: green;font-size: 20px;">Sảnh: Queen 3</div>
                             <div class="address">
-                                <%= data.cfg.male.location.text %>
+                                16A Lê Hồng Phong (nối dài), Phường 12, Quận 10, TP.HCM
+                             </div>
+                            <span style="padding-top: 10px">Vào lúc 18 giờ 00 phút</span>
+                            <div class="information-time">
+                                <span class="week vni">Chủ nhật</span>
+                                <span class="day btn">7</span>
+                                <span class="month vni">Tháng 1</span>
                             </div>
+                            
+                            
 
                         </div>
-                        <div class="end-row"> ======================</div>
+                        <span class="detail-time">(Nhằm ngày <%= data.cfg.male.time_start.date.lunar.day %> tháng
+                            <%= data.cfg.male.time_start.date.lunar.month %> năm Quý Mão)</span>
+                        <div class="end-row"></div>
 
                         <div class="card-description">
-                            <span>Sự hiện diện của quý vị <br> là niềm vinh dự lớn cho gia đình Chúng tôi</span>
+                            <span>Sự hiện diện của Quý Khách <br> là niềm vinh dự lớn cho gia đình Chúng tôi</span>
                         </div>
 
                         <div class="wrap-footer">
                             <div class="footer-information">
-                                <div class="home-male">
-                                    <span class="footer-header vni">Nhà Trai</span>
+                                <div class="home-male" style="text-align: right;">
+                                    <span class="footer-header vni"></span>
                                     <div class="family-information">
-                                        <p class="family-name"> <%= data.cfg.male.parent.father %></p>
-                                        <p class="family-name"><%= data.cfg.male.parent.mother %></p>
+                                        <p class="family-name">Đón khách: 18h</p>
+                                        <p class="family-name">Khai tiệc: 19h</p>
                                     </div>
                                 </div>
                                 <div class="home-female">
-                                    <span class="footer-header vni">Nhà Gái</span>
+                                    <span class="footer-header vni"></span>
                                     <div class="family-information">
-                                        <p class="family-name"> <%= data.cfg.female.parent.father %></p>
-                                        <p class="family-name"><%= data.cfg.female.parent.mother %></p>
+                                        <p class="family-name">Kính mời !</p>
+                                        <p class="family-name"></p>
                                     </div>
                                 </div>
                             </div>

@@ -9,21 +9,21 @@ const SeedDB = {
   },
   dataConfig: {
     male: {
-      name: "Nguyễn Văn An",
+      name: "Nguyễn Doãn Hiện",
       parent: {
-        father: "Họ Tên Bố",
-        mother: "Họ Tên Mẹ"
+        father: "Nguyễn Văn Hiền",
+        mother: "Doãn Thị Thanh Thảo"
       },
       location: {
-        text: "Quảng Yên - Quảng Ninh - Việt Nam",
-        map: "https://goo.gl/maps/tTZz4qKhaiqSL8Q66"
+        text: "Lê Trọng Tấn - Sơn Kỳ - Tân Phú",
+        map: "https://maps.app.goo.gl/ucAkG27UmvnXgPxT6"
       },
       time_start: {
         date: {
           lunar: {
-            day: "17",
-            month: "12",
-            year: "2020"
+            day: "26",
+            month: "11",
+            year: "2023"
           },
           day_of_week: "5",
           solar: {
@@ -38,36 +38,36 @@ const SeedDB = {
         }
       },
       finances: [{
-        provider_name: "MB Bank",
-        provider_number: "9971997555555",
-        holder_name: "NGUYEN VAN AN"
+        provider_name: "Vietcombank",
+        provider_number: "0171003465942",
+        holder_name: "NGUYEN DOAN HIEN"
       }, {
         provider_name: "Techcombank",
-        provider_number: "19034892842011",
-        holder_name: "NGUYEN VAN AN"
+        provider_number: "19037414507011",
+        holder_name: "NGUYEN DOAN HIEN"
       }, {
         provider_name: "Momo",
-        provider_number: "0973699999",
-        holder_name: "NGUYEN VAN AN"
+        provider_number: "0967513425",
+        holder_name: "NGUYEN DOAN HIEN"
       }, {
-        provider_name: "Airpay",
-        provider_number: "0973699999",
-        holder_name: "NGUYEN VAN AN"
+        provider_name: "Zalopay",
+        provider_number: "0967513425",
+        holder_name: "NGUYEN DOAN HIEN"
       }],
-      email: "male@gmail.com",
-      phone: "0973699999",
+      email: "toilati123vn@gmail.com",
+      phone: "0967513425",
       bg: '/assets/images/bg.jpg',
       bg_fb: '/assets/images/bg-fb.jpg'
     },
     female: {
-      name: "Nguyễn Thị Lan Anh",
+      name: "Phan Anh Trúc",
       parent: {
-        father: "Họ Tên Bố",
-        mother: "Họ Tên Mẹ"
+        father: "Phan Văn Giàu (Cố phụ)",
+        mother: "Phan Ngọc Hà"
       },
       location: {
-        text: "Quốc Oai - Hà Nội - Việt Nam",
-        map: "https://goo.gl/maps/tRjKuVRNisqxhQaT7"
+        text: "Phạm Văn Chí - Phường 7 - Quận 6",
+        map: "https://maps.app.goo.gl/w4pEKXi2TMAsKZnZA"
       },
       time_start: {
         date: {
@@ -105,8 +105,8 @@ const SeedDB = {
         provider_number: "0973699999",
         holder_name: "NGUYEN VAN AN"
       }],
-      email: "female@gmail.com",
-      phone: "0985123123",
+      email: "anhtruc.phan.370@gmail.com",
+      phone: "0704569020",
       bg: '/assets/images/bg.jpg',
       bg_fb: '/assets/images/bg-fb.jpg'
     },

@@ -362,7 +362,6 @@
 }
 
 .card-welcome {
-    padding: 10%;
     text-align: center;
     border: 1px solid navy;
     color: black;
@@ -388,12 +387,12 @@
     bottom: 0px;
     font-family: wedding-font-vni;
     position: absolute;
-    font-size: 21px;
+    font-size: 30pxf;
     z-index: 1000;
 }
 
 .card-header-inviter.name {
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .card-welcome-text {
@@ -403,7 +402,6 @@
 
 .card-invite {
     break-inside: avoid-column;
-    padding: 10%;
     text-align: center;
     border: 1px solid navy;
     color: black;
@@ -417,22 +415,22 @@
 
 .bg-top-right {
     position: absolute;
-    top: -20px;
-    right: -30px;
+    top: -14px;
+    right: -29px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: 170px;
 }
 
 .bg-bottom-left {
     position: absolute;
-    bottom: -20px;
+    bottom: -16px;
     left: -30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 180px;
     transform: rotate(180deg);
 }
 
@@ -450,16 +448,16 @@
 }
 
 .card-header-name {
-    padding-top: 10px;
 }
 
 .card-information {
     padding-top: 10px;
+    background: #ffc0cb5e;
 }
 
 .card-wrap .card-header-name {
     font-family: wedding-font-vni;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .information-time {
@@ -467,8 +465,7 @@
 }
 
 .information-time .day {
-    background-color: #626ed4;
-    border: 1px solid #626ed4;
+    background-color: #d46262;
     color: white;
     border-radius: 3px;
     font-size: 20px;
@@ -499,7 +496,7 @@
 
 .footer-information {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .footer-information .footer-header {
@@ -508,8 +505,7 @@
 }
 
 .family-name {
-    font-size: 16px;
-    margin: 0px;
+    margin: 0px 45px 0 70px;
 }
 
 .share-buttons {
