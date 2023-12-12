@@ -90,20 +90,16 @@ const SeedDB = {
       },
       finances: [{
         provider_name: "Techcombank",
-        provider_number: "19033799999999",
-        holder_name: "NGUYEN THI LAN ANH"
+        provider_number: "0171003457413",
+        holder_name: "Phan Anh Truc"
       }, {
-        provider_name: "Techcombank",
-        provider_number: "19033799999999",
-        holder_name: "NGUYEN THI LAN ANH"
+        provider_name: "Zalopay",
+        provider_number: "0704569020",
+        holder_name: "PHAN ANH TRUC"
       }, {
         provider_name: "Momo",
-        provider_number: "09736",
-        holder_name: "NGUYEN THI LAN ANH"
-      }, {
-        provider_name: "Airpay",
-        provider_number: "0973699999",
-        holder_name: "NGUYEN VAN AN"
+        provider_number: "0704569020",
+        holder_name: "PHAN ANH TRUC"
       }],
       email: "anhtruc.phan.370@gmail.com",
       phone: "0704569020",

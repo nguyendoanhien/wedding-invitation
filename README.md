@@ -9,8 +9,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://sauanla.com/wp-content/uploads/2020/06/ico-logo-sauanla2-300x245.png">
-    <img src="https://sauanla.com/wp-content/uploads/2020/06/ico-logo-sauanla2-300x245.png" alt="Logo" width="80" height="80">
+  <a href="/assets/images/shortcut-icon.jpg">
+    <img src="/assets/images/shortcut-icon.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Wedding Invitation Template</h3>
