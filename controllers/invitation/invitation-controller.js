@@ -18,18 +18,30 @@ class InvitationController extends BaseController {
 
         try {
             let data = await this._facade.getDefaultDataConfig();
-
+            const lang = req.query.lang
             if (!data) {
                 return res.redirect("/setup")
             }
-            res.render('invitation/male', {
-                layout: false,
-                data: {
-                    mode: MODE.DEFAULT,
-                    cfg: data,
-                    invitee: null,
-                },
-            });
+            if(lang=='en') {
+                res.render('invitation/female', {
+                    layout: false,
+                    data: {
+                        mode: MODE.DEFAULT,
+                        cfg: data,
+                        invitee: null,
+                    },
+                });
+            } else {
+                res.render('invitation/male', {
+                    layout: false,
+                    data: {
+                        mode: MODE.DEFAULT,
+                        cfg: data,
+                        invitee: null,
+                    },
+                });
+            }
+            
         } catch (error) {
             res.render('err/occurs-error', {
                 layout: false,
