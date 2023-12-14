@@ -7,8 +7,11 @@ const router = express.Router();
 router.get('/', (req, res) => {
     res.redirect("/invitation")
 });
-
+router.get('/thu-moi', (req, res) => {
+    res.redirect("/invitation?lang=vn")
+});
 router.use('/invitation', require('./invitation/invitation-router'));
+
 router.use('/invocation', require('./invocation/invocation-router'));
 
 router.use('/bank', require('./bank/bank-router'));

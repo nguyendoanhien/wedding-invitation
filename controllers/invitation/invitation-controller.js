@@ -22,8 +22,8 @@ class InvitationController extends BaseController {
             if (!data) {
                 return res.redirect("/setup")
             }
-            if(lang=='en') {
-                res.render('invitation/female', {
+            if(lang=='vn') {
+                res.render('invitation/male', {
                     layout: false,
                     data: {
                         mode: MODE.DEFAULT,
@@ -32,7 +32,7 @@ class InvitationController extends BaseController {
                     },
                 });
             } else {
-                res.render('invitation/male', {
+                res.render('invitation/female', {
                     layout: false,
                     data: {
                         mode: MODE.DEFAULT,
