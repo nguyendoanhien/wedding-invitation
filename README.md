@@ -175,7 +175,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Nguyen Doan Hien - [@facbook](https://fb.com/toilati123vn) - toilati123vn@gmail.com
+Nguyen Doan Hien - [@facebook](https://fb.com/toilati123vn) - toilati123vn@gmail.com
 
 Project Link: [https://github.com/nguyendoanhien/wedding-invitation](https://github.com/nguyendoanhien/wedding-invitation)
 
