@@ -10,7 +10,7 @@
     "start-win": "TITLE Wedding Invitation  &&  node ./bin/www | \"node_modules/.bin/bunyan\"",
     "heroku-start": "node ./bin/www"
   },
-  "author": "sauanla",
+  "author": "nguyendoanhien",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",

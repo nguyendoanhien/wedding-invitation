@@ -56,7 +56,7 @@ const SeedDB = {
       }],
       email: "toilati123vn@gmail.com",
       phone: "0967513425",
-      bg: '/assets/images/bg.jpg',
+      bg: 'https://i.imgur.com/bMBm5Jq.jpg',
       bg_fb: '/assets/images/bg-fb.jpg'
     },
     female: {
@@ -103,7 +103,7 @@ const SeedDB = {
       }],
       email: "anhtruc.phan.370@gmail.com",
       phone: "0704569020",
-      bg: '/assets/images/bg.jpg',
+      bg: 'https://i.imgur.com/bMBm5Jq.jpg',
       bg_fb: '/assets/images/bg-fb.jpg'
     },
     default: true

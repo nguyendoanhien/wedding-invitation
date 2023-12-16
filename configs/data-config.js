@@ -1,5 +1,5 @@
 const DataConfig = {
-    URI: 'https://wedding.sauanla.com'
+    URI: 'https://wedding.nguyendoanhien.com'
 };
 
 module.exports = DataConfig;

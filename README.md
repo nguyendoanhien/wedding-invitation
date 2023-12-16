@@ -18,14 +18,14 @@
   <p align="center">
     This is the template for wedding invitation card!
     <br />
-    <a href="https://github.com/sauanla/wedding-invitation/wiki"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/nguyendoanhien/wedding-invitation/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://sal-wedding-invitation.herokuapp.com/">View Demo</a>
+    <a href="https://truchien-wedding-invitation-ed72dc20e402.herokuapp.com/">View Demo</a>
     ·
-    <a href="https://github.com/sauanla/wedding-invitation/issues">Report Bug</a>
+    <a href="https://github.com/nguyendoanhien/wedding-invitation/issues">Report Bug</a>
     ·
-    <a href="https://github.com/sauanla/wedding-invitation/issues">Request Feature</a>
+    <a href="https://github.com/nguyendoanhien/wedding-invitation/issues">Request Feature</a>
     ·
     <a href="https://www.youtube.com/playlist?list=PLftwn3qtQFO2BTKQnC4cK60ibvydPBNh6">Youtube Tutorial</a>
   </p>
@@ -115,7 +115,7 @@ You need setup prerequisites:
 1. Get connection of MongoDB at [https://www.mongodb.com/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/sauanla/wedding-invitation.git
+   git clone https://github.com/nguyendoanhien/wedding-invitation.git
    ```
 3. Install NPM packages
    ```sh
@@ -141,14 +141,14 @@ You need setup prerequisites:
 ## Usage
 Run Seed Database: [http://localhost:3001/setup](http://localhost:3001/setup) 
 
-_For more examples, please refer to the [Documentation](https://github.com/sauanla/wedding-invitation/wiki)_
+_For more examples, please refer to the [Documentation](https://github.com/nguyendoanhien/wedding-invitation/wiki)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/sauanla/wedding-invitation/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/nguyendoanhien/wedding-invitation/issues) for a list of proposed features (and known issues).
 
 
 
@@ -175,30 +175,25 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Dinh Phuc - [@facbook](https://fb.com/it.sauanla) - phucnd.zit@gmail.com
+Dinh Phuc - [@facbook](https://fb.com/toilati123vn) - toilati123vn@gmail.com
 
-Project Link: [https://github.com/sauanla/wedding-invitation](https://github.com/sauanla/wedding-invitation)
+Project Link: [https://github.com/nguyendoanhien/wedding-invitation](https://github.com/nguyendoanhien/wedding-invitation)
 
-
-
-<!-- Donate -->
-## Donate
-<a href="https://www.buymeacoffee.com/sauanla" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/sauanla/wedding-invitation.svg?style=for-the-badge
-[contributors-url]: https://github.com/sauanla/wedding-invitation/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/sauanla/wedding-invitation.svg?style=for-the-badge
-[forks-url]: https://github.com/sauanla/wedding-invitation/network/members
-[stars-shield]: https://img.shields.io/github/stars/sauanla/wedding-invitation.svg?style=for-the-badge
-[stars-url]: https://github.com/sauanla/wedding-invitation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/sauanla/wedding-invitation.svg?style=for-the-badge
-[issues-url]: https://github.comsauanla/wedding-invitation/issues
-[license-shield]: https://img.shields.io/github/license/sauanla/wedding-invitation.svg?style=for-the-badge
-[license-url]: https://github.com/sauanla/wedding-invitation/blob/main/LICENSE.txt
-[product-screenshot]: https://i.imgur.com/R8MzjsI.png
+[contributors-shield]: https://img.shields.io/github/contributors/nguyendoanhien/wedding-invitation.svg?style=for-the-badge
+[contributors-url]: https://github.com/nguyendoanhien/wedding-invitation/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/nguyendoanhien/wedding-invitation.svg?style=for-the-badge
+[forks-url]: https://github.com/nguyendoanhien/wedding-invitation/network/members
+[stars-shield]: https://img.shields.io/github/stars/nguyendoanhien/wedding-invitation.svg?style=for-the-badge
+[stars-url]: https://github.com/nguyendoanhien/wedding-invitation/stargazers
+[issues-shield]: https://img.shields.io/github/issues/nguyendoanhien/wedding-invitation.svg?style=for-the-badge
+[issues-url]: https://github.comnguyendoanhien/wedding-invitation/issues
+[license-shield]: https://img.shields.io/github/license/nguyendoanhien/wedding-invitation.svg?style=for-the-badge
+[license-url]: https://github.com/nguyendoanhien/wedding-invitation/blob/main/LICENSE.txt
+[product-screenshot]: https://i.imgur.com/DvZFMtY.png
 
 ⚡ Quote: 
 **You fail because you don't believe.**
