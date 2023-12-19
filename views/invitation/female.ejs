@@ -17,7 +17,7 @@
     <meta property="fb:admins" content="100004574107394"/>
     <meta property="og:updated_time" content="<%= +new Date() %>"/>
     <meta name="keywords" content='Cordially invite <%= (data.invitee !== null) ? data.invitee.name : "" %>'/>
-    <meta name="description" content="Your presence, your love, your best wishes and your smile...all these things will make our special day even more precious"/>
+    <meta name="description" content='<%= (data.invitee.message.length > 0 ? data.invitee.message : "Your presence, your love, your best wishes and your smile...all these things will make our special day even more precious") %>'/>
     <link rel="shortcut icon" href="/assets/images/shortcut-icon.jpg"/>
 
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
